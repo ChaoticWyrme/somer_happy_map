@@ -108,7 +108,8 @@ public void drawAvg(int catNum, boolean debug) {
   if(debug) {
     int n = 1;
     for(float avg : wardAvg) {
-      println("Ward "+n+" average: "+wardAvg[n]);
+      println("Ward "+n+" average: "+avg);
+      n++;
     }
   }
 }
